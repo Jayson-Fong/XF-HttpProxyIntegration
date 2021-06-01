@@ -1,0 +1,14 @@
+{
+    "legacy_addon_id": "",
+    "title": "HTTP Proxy Integration",
+    "description": "Secure your image assets using a remote server.",
+    "version_id": 1000010,
+    "version_string": "1.0.0 Alpha",
+    "dev": "Jayson Fong",
+    "dev_url": "https://www.jaysonfong.org",
+    "faq_url": "",
+    "support_url": "mailto:contact@jaysonfong.org",
+    "extra_urls": [],
+    "require": [],
+    "icon": "fa-wifi"
+}

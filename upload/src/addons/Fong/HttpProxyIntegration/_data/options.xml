@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<options>
+  <option option_id="httpproxyintegration_algorithm" edit_format="callback" data_type="string">
+    <default_value>sha1</default_value>
+    <edit_format_params>Fong\HttpProxyIntegration\Option\HashAlgorithm::renderOption</edit_format_params>
+    <relation group_id="httpproxyintegration" display_order="4"/>
+  </option>
+  <option option_id="httpproxyintegration_enable" edit_format="onoff" data_type="boolean">
+    <default_value>0</default_value>
+    <relation group_id="httpproxyintegration" display_order="1"/>
+  </option>
+  <option option_id="httpproxyintegration_encode" edit_format="onoff" data_type="boolean">
+    <default_value>0</default_value>
+    <relation group_id="httpproxyintegration" display_order="2"/>
+  </option>
+  <option option_id="httpproxyintegration_secret" edit_format="textbox" data_type="string">
+    <default_value></default_value>
+    <relation group_id="httpproxyintegration" display_order="5"/>
+  </option>
+  <option option_id="httpproxyintegration_server" edit_format="textbox" data_type="string">
+    <default_value></default_value>
+    <relation group_id="httpproxyintegration" display_order="3"/>
+  </option>
+</options>

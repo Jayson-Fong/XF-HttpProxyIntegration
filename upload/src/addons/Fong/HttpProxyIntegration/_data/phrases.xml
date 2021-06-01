@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<phrases>
+  <phrase title="option.httpproxyintegration_algorithm" version_id="1000010" version_string="1.0.0 Alpha"><![CDATA[Hash HMAC Algorithm]]></phrase>
+  <phrase title="option.httpproxyintegration_enable" version_id="1000010" version_string="1.0.0 Alpha"><![CDATA[Enable]]></phrase>
+  <phrase title="option.httpproxyintegration_encode" version_id="1000010" version_string="1.0.0 Alpha"><![CDATA[Use Encoded URL]]></phrase>
+  <phrase title="option.httpproxyintegration_secret" version_id="1000010" version_string="1.0.0 Alpha"><![CDATA[Instance Secret]]></phrase>
+  <phrase title="option.httpproxyintegration_server" version_id="1000010" version_string="1.0.0 Alpha"><![CDATA[Server URL]]></phrase>
+  <phrase title="option_explain.httpproxyintegration_algorithm" version_id="1000010" version_string="1.0.0 Alpha"><![CDATA[The selected hash method will be used to generate the token.]]></phrase>
+  <phrase title="option_explain.httpproxyintegration_enable" version_id="1000010" version_string="1.0.0 Alpha"><![CDATA[Enable the proxy. By doing so, uses of the image BbCode will be sent instead to the defined proxy.]]></phrase>
+  <phrase title="option_explain.httpproxyintegration_encode" version_id="1000010" version_string="1.0.0 Alpha"><![CDATA[URL encode the original link for HMAC generation.]]></phrase>
+  <phrase title="option_explain.httpproxyintegration_secret" version_id="1000010" version_string="1.0.0 Alpha"><![CDATA[Used in the generation of your token.]]></phrase>
+  <phrase title="option_explain.httpproxyintegration_server" version_id="1000010" version_string="1.0.0 Alpha"><![CDATA[Include the URL to your proxy server. Your URL may contain these variables:
+<ul>
+<li><strong>{url}</strong> - Image Source URL</li>
+<li><strong>{token}</strong> - Generated Hash</strong>
+</ul>]]></phrase>
+  <phrase title="option_group.httpproxyintegration" version_id="1000010" version_string="1.0.0 Alpha"><![CDATA[HTTP Proxy]]></phrase>
+  <phrase title="option_group_description.httpproxyintegration" version_id="1000010" version_string="1.0.0 Alpha"><![CDATA[Configure an HTTP proxy for fetching external images.]]></phrase>
+</phrases>
