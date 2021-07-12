@@ -2,12 +2,14 @@
 
 namespace Fong\HttpProxyIntegration\XF\BbCode\Renderer;
 
+use XF;
+
 class Html extends XFCP_Html
 {
 
     protected function getRenderedImg($imageUrl, $validUrl, array $params = []) : string
     {
-        $options = \XF::options();
+        $options = XF::options();
         if (!$options->httpproxyintegration_enable) {
             return parent::getRenderedImg($imageUrl, $validUrl, $params);
         }

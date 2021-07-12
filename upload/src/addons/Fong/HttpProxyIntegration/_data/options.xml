@@ -13,8 +13,9 @@
     <default_value>0</default_value>
     <relation group_id="httpproxyintegration" display_order="2"/>
   </option>
-  <option option_id="httpproxyintegration_secret" edit_format="textbox" data_type="string">
+  <option option_id="httpproxyintegration_secret" edit_format="callback" data_type="string">
     <default_value></default_value>
+    <edit_format_params>Fong\HttpProxyIntegration\Option\Secret::renderOption</edit_format_params>
     <relation group_id="httpproxyintegration" display_order="5"/>
   </option>
   <option option_id="httpproxyintegration_server" edit_format="textbox" data_type="string">
